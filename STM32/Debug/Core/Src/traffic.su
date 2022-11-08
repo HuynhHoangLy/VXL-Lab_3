@@ -1,0 +1,4 @@
+../Core/Src/traffic.c:9:6:turnLightOn	16	static
+../Core/Src/traffic.c:28:6:anotherturnLightOn	16	static
+../Core/Src/traffic.c:47:6:clearLight	8	static
+../Core/Src/traffic.c:51:6:anotherclearLight	8	static
