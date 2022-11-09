@@ -141,7 +141,6 @@ void updateVal7SEG() {
 	  if (timer5_flag == 1) {
 		  if (status == MAN_RED || status == MAN_GREEN || status == MAN_YELLOW || status == INIT) {
 			  led_buffer[0] = led_buffer[2] = led_buffer[3] = 0;
-			  led_buffer[1] = 2;
 		  }
 		  else for (int i = 0; i < 4; i++) --led_buffer[i];
 		  setTimer5(1000);
@@ -169,7 +168,7 @@ void blinkyLed(int led) {
 				break;
 
 			case LED_YELLOW:
-				HAL_GPIO_TogglePin(GPIOA, output1_Pin | output1_Pin);
+				HAL_GPIO_TogglePin(GPIOA, output1_Pin | output4_Pin);
 				break;
 
 			default:

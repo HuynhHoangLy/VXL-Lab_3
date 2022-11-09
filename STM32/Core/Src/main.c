@@ -109,9 +109,9 @@ int main(void)
 
   while (1)
   {
+	  mode2();
 	  scan7SEG();
 	  fsm_automatic_run();
-	  mode2();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
