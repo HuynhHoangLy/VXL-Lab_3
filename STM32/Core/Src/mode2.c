@@ -32,7 +32,7 @@ void mode2() {
 			if (led_fake[3] != 0) led_buffer[3] = led_fake[3];
 			if (isButtonPressed(2) || isButtonLPressed(2)) {
 				status = INIT;
-				if (led_fake[2] != 0 && led_fake[3] != 0) time4Run[2] = led_fake[2]*10 + led_fake[3];
+				if (led_fake[2] != 0 || led_fake[3] != 0) time4Run[2] = led_fake[2]*10 + led_fake[3];
 				for (int i = 0; i < 4; i++) led_fake[i] = 0;
 				status = INIT;
 				anotherstatus = INIT;
@@ -66,7 +66,7 @@ void mode2() {
 			if (led_fake[3] != 0) led_buffer[3] = led_fake[3];
 			if (isButtonPressed(2) || isButtonLPressed(2)) {
 				status = INIT;
-				if (led_fake[2] != 0 && led_fake[3] != 0) time4Run[0] = led_fake[2]*10 + led_fake[3];
+				if (led_fake[2] != 0 || led_fake[3] != 0) time4Run[0] = led_fake[2]*10 + led_fake[3];
 				for (int i = 0; i < 4; i++) led_fake[i] = 0;
 				status = INIT;
 				anotherstatus = INIT;
@@ -99,7 +99,7 @@ void mode2() {
 			if (led_fake[3] != 0) led_buffer[3] = led_fake[3];
 			if (isButtonPressed(2) || isButtonLPressed(2)) {
 				status = INIT;
-				if (led_fake[2] != 0 && led_fake[3] != 0) time4Run[1] = led_fake[2]*10 + led_fake[3];
+				if (led_fake[2] != 0 || led_fake[3] != 0) time4Run[1] = led_fake[2]*10 + led_fake[3];
 				for (int i = 0; i < 4; i++) led_fake[i] = 0;
 				status = INIT;
 				anotherstatus = INIT;

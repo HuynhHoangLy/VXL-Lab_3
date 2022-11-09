@@ -2,5 +2,5 @@
 ../Core/Src/output_display.c:61:6:adisplay7SEG	16	static
 ../Core/Src/output_display.c:105:6:update7SEG	16	static
 ../Core/Src/output_display.c:140:6:updateVal7SEG	16	static
-../Core/Src/output_display.c:152:6:scan7SEG	8	static
-../Core/Src/output_display.c:161:6:blinkyLed	16	static
+../Core/Src/output_display.c:150:6:scan7SEG	8	static
+../Core/Src/output_display.c:159:6:blinkyLed	16	static
